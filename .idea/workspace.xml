@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04000257-d772-497b-ac53-403688fb4393" name="Default Changelist" comment="netty init">
+      <change beforePath="$PROJECT_DIR$/bio/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bio/src/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio/src/main/java/com/leo/bio/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/bio/src/main/java/com/leo/bio/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio/src/main/java/com/leo/bio/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/bio/src/main/java/com/leo/bio/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio/src/main/java/com/leo/netBasic/UseInet.java" beforeDir="false" afterPath="$PROJECT_DIR$/bio/src/main/java/com/leo/netBasic/UseInet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio/src/main/java/com/leo/netBasic/UseNetworkInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/bio/src/main/java/com/leo/netBasic/UseNetworkInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bio/src/main/resources/log4j2.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MavenRepository" />
+        <option name="mavenHome" value="D:\Program Files (x86)\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jQ8F6YWdrGsoxqMDpkzrhckgH9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitWorkspace\netty" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.bio.Client" />
+      <module name="bio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leo.bio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.bio.Server" />
+      <module name="bio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leo.bio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseInet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.netBasic.UseInet" />
+      <module name="bio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leo.netBasic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.UseInet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04000257-d772-497b-ac53-403688fb4393" name="Default Changelist" comment="" />
+      <created>1603724848246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603724848246</updated>
+      <workItem from="1603724849489" duration="2740000" />
+      <workItem from="1604327426819" duration="4423000" />
+    </task>
+    <task id="LOCAL-00001" summary="gitignore file">
+      <created>1603726802458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603726802458</updated>
+    </task>
+    <task id="LOCAL-00002" summary="netty init">
+      <created>1603726890934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603726890934</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitignore file" />
+    <MESSAGE value="netty init" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="97" key="#Project_Structure" timestamp="1603726204602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="97" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603726204602" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1604329524287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604329524287" />
+    <state x="558" y="91" key="CommitChangelistDialog2" timestamp="1603726889411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="91" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603726889411" />
+    <state x="740" y="238" key="FileChooserDialogImpl" timestamp="1603726375604">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="238" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603726375604" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1604331858138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604331858138" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1604331858137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604331858137" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1604331858137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604331858137" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1604331858137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604331858137" />
+    <state x="490" y="177" key="Maven.ArtifactSearchDialog" timestamp="1604330577661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="177" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604330577661" />
+    <state x="786" y="225" key="RollbackChangesDialog" timestamp="1603726994140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="786" y="225" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603726994140" />
+    <state x="463" y="166" key="SettingsEditor" timestamp="1604330563352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604330563352" />
+    <state x="334" y="185" key="new project wizard" timestamp="1603726194582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="185" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603726194582" />
+  </component>
+</project>
