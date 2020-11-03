@@ -26,15 +26,16 @@ public class Client {
         try {
             socket = new Socket();
             socket.connect(address);
-            inputStream = new ObjectInputStream(socket.getInputStream());
+
             outputStream = new ObjectOutputStream(socket.getOutputStream());
+            inputStream = new ObjectInputStream(socket.getInputStream());
 
             //向Server传输数据
             outputStream.writeUTF("Leo");
             outputStream.flush();
 
             //接收Server的回应
-            log.info(inputStream.readUTF());
+            log.info("{}", inputStream.readUTF());
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

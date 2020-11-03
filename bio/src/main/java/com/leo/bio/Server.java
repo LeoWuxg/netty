@@ -22,9 +22,12 @@ public class Server {
         //绑定一个地址和端口
         serverSocket.bind(new InetSocketAddress(9999));
         log.info("server started!");
-
-        while (true) {
-            new Thread(new ServerTask(serverSocket.accept())).start();
+        try {
+            while (true) {
+                new Thread(new ServerTask(serverSocket.accept())).start();
+            }
+        } finally {
+            serverSocket.close();
         }
     }
 
@@ -46,7 +49,7 @@ public class Server {
                 log.info("accept client msg:{}", userName);
 
                 //对消息加工后，返回给client
-                String backMsg = String.format("hello {} from server!", userName);
+                String backMsg = String.format("hello %s from server!", userName);
                 outputStream.writeUTF(backMsg);
                 outputStream.flush();
             } catch (Exception e) {
